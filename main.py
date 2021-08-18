@@ -119,7 +119,7 @@ for i in lista:
     print(i)
 
 
-
+'''
 print("Podaj liczbę zleceń")
 job_count = int(input())
 workload1 = 0
@@ -143,7 +143,7 @@ print("Najbliży mechanik będzie wolny w ciągu {} dni".format(
 print("Wszyscy mechanicy będą wolni w ciągu {} dni".format(
     int((max(workload1, workload2, workload3)+7)  / 8)
 ))
-
+'''
 import sys
 
 #print(sys.argv[1])
