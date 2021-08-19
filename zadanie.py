@@ -1,9 +1,13 @@
 liczba_paczek_wyslanych = 0
 liczba_kilogramow_wyslanych = 0
 suma_pustych_kilogramow = liczba_paczek_wyslanych * 20 - liczba_kilogramow_wyslanych
-paczka_puste_kilogramy = 0
-while paczka = :
-    print("podaj elementw kilogramach: ")
- element = int(input())
-    if element == 0 and element < 1 and element > 10:
+puste_kilogramy = 0
+paczka = 0
+while paczka < 20:
+    print("podaj element w kilogramach: ")
+    element = int(input())
+    if element == 0 or element < 1 or element > 10:
+        print('zła wartość w kg ')
         break
+    if
+
