@@ -10,5 +10,4 @@ while paczka < 20:
     if element == 0 or element < 1 or element > 10:
         print('zła wartość w kg ')
         break
-    if
 
