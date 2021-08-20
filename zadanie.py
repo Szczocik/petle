@@ -40,7 +40,7 @@ print("\n")
 print('Liczba paczek wysłanych', paczka_numer)
 print('Liczba kilogramów wysłanych', liczba_kilogramow_wyslanych)
 print('Suma pustych kilogramów', suma_pustych_kilogramow)
-print('Najlżejsza paczka miała nr', najlzejsza_paczka_numer,'wartość w kilogramach', najlzejsza_paczka_waga)
+print('Najlżejsza paczka miała nr', najlzejsza_paczka_numer,'wartość tej paczki w kg to:', najlzejsza_paczka_waga)
 
 
 
