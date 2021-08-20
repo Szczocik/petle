@@ -37,10 +37,10 @@ if paczka_kilogramy < najlzejsza_paczka_waga:
 
 suma_pustych_kilogramow = paczka_numer * 20 - liczba_kilogramow_wyslanych
 print("\n")
-print('Liczba paczek wysłanych', paczka_numer)
-print('Liczba kilogramów wysłanych', liczba_kilogramow_wyslanych)
-print(suma_pustych_kilogramow)
-print(najlzejsza_paczka_numer, najlzejsza_paczka_waga)
+print('Liczba paczek wysłanych ', paczka_numer)
+print('Liczba kilogramów wysłanych ', liczba_kilogramow_wyslanych)
+print('Suma pustych kilogramów ', suma_pustych_kilogramow)
+print('Najlżejsza paczka miała nr ', najlzejsza_paczka_numer,'wartość w kilogramach ', najlzejsza_paczka_waga)
 
 
 
