@@ -1,6 +1,5 @@
 import sys
 liczba_elementow = int(sys.argv[1])
-
 liczba_kilogramow_wyslanych = 0
 waga_elementu_min = 1
 waga_elementu_max = 10
