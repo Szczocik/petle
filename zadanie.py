@@ -2,7 +2,8 @@ import sys
 liczba_elementow = int(sys.argv[1])
 
 liczba_kilogramow_wyslanych = 0
-
+waga_elementu_min = 1
+waga_elementu_max = 10
 puste_kilogramy = 0
 paczka_kilogramy = 0
 paczka_numer = 0
@@ -13,11 +14,9 @@ najlzejsza_paczka_waga = 20
 for numer_elementu in range(liczba_elementow):
     print("podaj element w kilogramach: ")
     waga_elementu = int(input())
-    #if numer_elementu == 1:
-     #   paczka_numer = 1
     if waga_elementu == 0:
         break
-    elif waga_elementu < 1 or waga_elementu > 10:
+    elif waga_elementu < waga_elementu_min or waga_elementu > waga_elementu_max:
         print('zła wartość w kg ')
         break
     else:
