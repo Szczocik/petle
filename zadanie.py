@@ -16,7 +16,7 @@ for numer_elementu in range(liczba_elementow):
     if waga_elementu == 0:
         break
     elif waga_elementu < waga_elementu_min or waga_elementu > waga_elementu_max:
-        print('zła wartość w kg ')
+        print('Zła wartość w kg. ')
         break
     else:
         liczba_kilogramow_wyslanych += waga_elementu
