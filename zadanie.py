@@ -3,7 +3,6 @@ liczba_elementow = int(sys.argv[1])
 liczba_kilogramow_wyslanych = 0
 waga_elementu_min = 1
 waga_elementu_max = 10
-puste_kilogramy = 0
 paczka_kilogramy = 0
 paczka_numer = 0
 suma_elementow = 0
@@ -16,7 +15,7 @@ for numer_elementu in range(liczba_elementow):
     if waga_elementu == 0:
         break
     elif waga_elementu < waga_elementu_min or waga_elementu > waga_elementu_max:
-        print('Zła wartość w kg. ')
+        print('Zła wartość w kg.')
         break
     else:
         liczba_kilogramow_wyslanych += waga_elementu
