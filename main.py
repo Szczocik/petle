@@ -173,3 +173,5 @@ print("Wszyscy mechanicy będą wolni w ciągu {} dni".format(
     int((max(workload1, workload2, workload3)+7)  / 8)
 ))
 '''
+a = 5
+type(a)
