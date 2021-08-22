@@ -1,1 +1,2 @@
 # ciąg Collatza
+a = x
