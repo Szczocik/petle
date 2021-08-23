@@ -1,26 +1,26 @@
 # ciąg Collatza
-#collatz
 
-print("Podaj liczbę x w przedziale 0d 1 do 100:")
-
+print("Podaj liczbę x w przedziale od 1 do 100: ")
+ciag_collatza = []
 x = (int(input()))
 
-def collatz(x):
-    while x != 1:
+while x >= 1 and x < 100:
+    if x % 2 == 0:
+        x_n = (x / 2)
+        #print(number)
+    ciag_collatza += x_n
 
-        if x % 2==0:
-            x = (//2)
-            #print(number)
-            return (print(int()))
+    elif x % 2 == 1:
+        x_n = (3 * x + 1)
+        #print(number)
+    ciag_collatza += x_n
+    continue
 
-        elif x % 2==1:
-             = (3*+1)
-            #print(number)
-            return (print(int()))
+    elif x_n = 1
+    break
 
-        continue
+print(ciag_collatza)
 
 
-collatz(number)
 
 
