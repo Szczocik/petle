@@ -1,7 +1,7 @@
 # ciąg Collatza
 
 
-ciag_collatza = []
+ciag_collatza = len[]
 x = (int(input()))
 wyraz_ciagu = 0
 
